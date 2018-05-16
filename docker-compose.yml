@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   docker.windows:
-    image: ${DOCKER_REGISTRY}dockerwindows
+    image: ${DOCKER_REGISTRY}dockerlinux
     build:
       context: .
-      dockerfile: Docker.Windows\Dockerfile
+      dockerfile: Docker.Ubuntu\Dockerfile
